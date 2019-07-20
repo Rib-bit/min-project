@@ -10,7 +10,7 @@
         <title>French Cookies</title>
         <link rel="stylesheet" href="mini-project.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-        <script type="text/javascript" src="mini-project.js"></script>
+        
 
     </head>
     <body>
@@ -69,6 +69,19 @@
             </section>
             <section>
                 <h2>Ingredients</h2><hr>
+                <div id="servings">
+                    <h3>Servings: </h3>
+                    <button id="plus-serving" class="serving btn btn-default" value="+"><i class="fa fa-plus"></i></button>
+                    <span class="serving" id="serving-value">4</span> 
+                    <button id="minus-serving" class="serving btn btn-default" value="-"><i class="fa fa-minus"></i></button> 
+                </div>
+                <ul>
+                    <li><span id="flour-quantity">300</span>g flour</li>
+                    <li><span id="butter-quantity">150</span>g butter</li>
+                    <li><span id="sugar-quantity">200</span>g sugar</li>
+                    <li><span id="chocolate-quantity">60</span>g chocolate</li>
+                    <li><span id="eggs-quantity">2</span> eggs</li>
+                </ul>
             </section>
             <section>
                 <h2>Step by Step</h2><hr>
@@ -86,5 +99,7 @@
                       <button class="btn btn-footer"><a href="https://twitter.com/rybByt_" target="_blank"><i class="fa fa-twitter" style="color: #bcd" aria-hidden="true"></i></a></button>
               </footer>
               <script src="https://use.fontawesome.com/a65e9d15c5.js"></script>
+              
+        <script type="text/javascript" src="mini-project.js"></script>
     </body>
 </html>
