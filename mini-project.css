@@ -1,0 +1,16 @@
+.padded{
+    padding: 20px;
+}
+.btn-footer {
+    background-color: #222;
+    width: 56px;
+    height: 56px;
+    border-style: none;
+  }
+  #footer {
+    background-color: #222;
+    color: #bcd;
+    padding: 15px;
+    text-align: center;
+    align-self: stretch;
+  }
