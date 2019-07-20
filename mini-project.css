@@ -1,5 +1,11 @@
+#main{
+    padding: 25px 125px;
+}
 .padded{
     padding: 20px;
+}
+.target{
+    color: cadetblue;
 }
 .btn-footer {
     background-color: #222;
@@ -13,4 +19,42 @@
     padding: 15px;
     text-align: center;
     align-self: stretch;
+  }
+  .score {
+    display: block;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .score-wrap {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 19px;
+  }
+  
+  .score .stars-active {
+    color: #EEBD01;
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+  }
+  
+  .score .stars-inactive {
+    color: grey;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-text-stroke: initial;
+    overflow: hidden;
+  }
+  .overview-v{
+      display: flex;
+      flex-direction: column;
+  }
+  #overview-h{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
   }
